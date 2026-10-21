@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from sqlalchemy import create_engine
 
-engine = create_engine('postgresql+psycopg2://postgres:Cogolludo01@127.0.0.1/credit_risk')
+engine = create_engine('postgresql+psycopg2://postgres:PASSWORD@127.0.0.1/credit_risk')
 
 # --- Query 1: Default rate by grade ---
 q1 = """

@@ -1,7 +1,7 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-engine = create_engine('postgresql+psycopg2://postgres:Cogolludo01@127.0.0.1/credit_risk')
+engine = create_engine('postgresql+psycopg2://postgres:PASSWORD@127.0.0.1/credit_risk')
 
 COLUMNS = [
     'id', 'loan_amnt', 'funded_amnt', 'int_rate', 'installment',
